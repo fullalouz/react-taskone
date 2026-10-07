@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #282d35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-card {
+  width: 550px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  padding: 0 27px;
+  height: 91px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-icon {
+  width: 29px;
+  height: 29px;
+}
+
+.nav-title {
+  color: #61dafb;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.main-content {
+  background-color: #282d35;
+  color: #ffffff;
+  padding: 57px 27px 30px 27px;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-title {
+  font-size: 39px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 40px;
+  letter-spacing: -0.05em;
+}
+
+.bullet-points {
+  width: 390px;
+  padding-left: 28px;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.bullet-points li {
+  padding-block: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.51px;
+  color: #ffffff;
+}
+
+.bullet-points li::marker {
+  font-size: 2.2rem;
+  color: #61dafb;
+}
+
+.main-bg-icon {
+  position: absolute;
+  right: -130px;
+  top: 140px;
+  width: 260px;
+  height: 230px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.footer-container {
+  background-color: #21222a;
+  height: 91px;
+  display: flex;
+  align-items: center;
+  padding: 0 55.61px;
+  position: relative;
+  z-index: 2;
+}
+
+.footer-text {
+  margin: 0;
+  color: #61dafb;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.05em;
+}
